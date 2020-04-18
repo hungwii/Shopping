@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../sfonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .sign_in {
+    margin: 0 13px;
+}
+.shortcut .sign_up {
+    color: #c81623;
+}
+.downarr::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+    margin-right: 13px;
+    margin-left: -11px;
+}
+.veg li a{
+    padding: 0 13px;
+    border-left: 1px solid gray;
+}
+.veg li:first-child a {
+    border-left: none;
+}
+
+/* 搜索栏 */
+.search {
+    margin-top: 25px;
+}
+.search .w img {
+    float: left;
+    height: 100%;
+}
+
+.search_input {
+    float: left;
+    width: 538px;
+    height: 100%;
+    margin-left: 172px;
+    margin-top: 1px;
+}
+.search_input input {
+    float: left;
+    width: 469px;
+    height: 37px;
+    border: 2px solid #b1191a;
+    outline: none;
+    box-sizing: border-box;
+    text-indent: 10px;
+}
+.search_input button {
+    float: left;
+    width: 69px;
+    height: 37px;
+    background-color: #b1191a;
+    outline: none;
+    border: #b1191a;
+    line-height: 37px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+.search ul li {
+    margin: 0 13px;
+}
+
+.search .shopcart {
+    float: right;
+    position: relative;
+    left: -64px;
+    width: 140px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+
+}
+.search .shopcart a{
+    line-height: 36px;
+    margin-left: 43px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.search .shopcart span:first-child{
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    /* vertical-align: middle;为什么这个不管用？ */
+    width: 25px;
+    height: 20px;
+    background: url(../images/icons.png) no-repeat -413px -86px;   
+}
+.search .shopcart::after {
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.search .shopcart .info {
+    position: absolute;
+    top: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: aqua;
+    text-align: center;
+}

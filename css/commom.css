@@ -50,23 +50,32 @@
 
 /* 搜索栏 */
 .search {
+    position: relative;
+    height: 56px;
     margin-top: 25px;
 }
-.search .w img {
-    float: left;
-    height: 100%;
+/* 可以把h1浮动脱标或者转换为块或行内块，再指定h1的大小来防止占用一行 */
+/* 但是也可以不指定h1,让他的孩子脱标，那么h1的大小就会自动变成0，节省代码 */
+
+.search h1 a{
+    position: absolute;
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -99999999px;
+    overflow: hidden;
 }
 
 .search_input {
-    float: left;
-    width: 538px;
+    position: absolute;
+    left: 348px;
+    width: 542px;
     height: 100%;
-    margin-left: 172px;
-    margin-top: 1px;
 }
 .search_input input {
     float: left;
-    width: 469px;
+    width: 458px;
     height: 37px;
     border: 2px solid #b1191a;
     outline: none;
@@ -75,7 +84,7 @@
 }
 .search_input button {
     float: left;
-    width: 69px;
+    width: 84px;
     height: 37px;
     background-color: #b1191a;
     outline: none;
@@ -83,16 +92,16 @@
     line-height: 37px;
     text-align: center;
     font-size: 16px;
-    color: #f1f1f1;
+    color: #c1c1c1;
 }
 .search ul li {
-    margin: 0 13px;
+    margin: 0 10px;
+    font-size: 12px;
 }
 
 .search .shopcart {
-    float: right;
-    position: relative;
-    left: -64px;
+    position: absolute;
+    right: 60px;
     width: 140px;
     height: 36px;
     box-sizing: border-box;
@@ -126,8 +135,12 @@
 .search .shopcart .info {
     position: absolute;
     top: -8px;
-    width: 16px;
+    left: 105px;
+    display: block;
+    padding: 0 5px;
     height: 16px;
-    background-color: aqua;
-    text-align: center;
+    line-height: 16px;
+    border-radius: 8px 8px 8px 0;
+    background-color: #e60012;
+    color: #fefefe;
 }

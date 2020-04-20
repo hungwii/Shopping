@@ -144,3 +144,39 @@
     background-color: #e60012;
     color: #fefefe;
 }
+
+/* 导向栏部分 */
+.way {
+    position: relative;
+    top: 25px;
+    height: 47px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #b1191a;
+}
+
+.way h3 {
+    position: absolute;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    /* 为什么line-height用继承没有办法生效？ */
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.way ul {
+    position: absolute;
+    /* 这种写法没有兼容性 */
+    left: 490px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+}
+
+.way ul li {
+    float: left;
+    margin-right: 51px;  
+}

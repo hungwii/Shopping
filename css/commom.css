@@ -154,7 +154,7 @@
     border-bottom: 2px solid #b1191a;
 }
 
-.way h3 {
+.way .dropdown header{
     position: absolute;
     width: 210px;
     height: 45px;
@@ -165,8 +165,46 @@
     line-height: 45px;
     font-size: 16px;
 }
+.dropdown div ul{
+    position: absolute;
+    top: 48px;
+    width: 210px;
+    /* height: 465px; */
+    
+}
+.smallnav li {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 31px;
+    padding-left: 12px;
+    border-left: 2px solid #e60012;
+    background-color: #c81623;
+    line-height: 31px;
+    font-size: 14px;
+}
+.smallnav li a{  
+    color: #f1f1f1;
+}
 
-.way ul {
+.smallnav li a::after {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.smallnav li:hover {
+    background-color: #fff;
+}
+.smallnav li:hover a {
+    color: #c81623;
+}
+
+
+.way .specific {
     position: absolute;
     /* 这种写法没有兼容性 */
     left: 490px;
@@ -176,7 +214,7 @@
     color: #333;
 }
 
-.way ul li {
+.way .specific li {
     float: left;
     margin-right: 51px;  
 }

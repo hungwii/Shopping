@@ -150,6 +150,8 @@
     position: relative;
     top: 25px;
     height: 47px;
+    /* 这里不加margin-bottom的话下面的盒子会不正常重叠上来 */
+    /* margin-bottom: 25px; */
     box-sizing: border-box;
     border-bottom: 2px solid #b1191a;
 }
@@ -172,9 +174,9 @@
     /* height: 465px; */
     
 }
-.smallnav {
+/* .smallnav {
     display: none;
-}
+} */
 .smallnav li {
     position: relative;
     display: block;
@@ -187,7 +189,7 @@
     line-height: 31px;
     font-size: 14px;
 }
-.smallnav li a{  
+.smallnav li a{
     color: #f1f1f1;
 }
 
@@ -220,6 +222,10 @@
 .way .specific li {
     float: left;
     margin-right: 51px;  
+}
+.way .specific li a {
+    display: block;
+    height: 45px;
 }
 
 /* 底部模块 */

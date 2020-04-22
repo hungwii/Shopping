@@ -1,0 +1,89 @@
+.main {
+    position: relative;
+    margin-top: 35px;
+    width: 1200px;
+    height: 455px;
+    /* background-color: aqua; */
+}
+.main .focus {
+    position: absolute;
+    left: 220px;
+    width: 721px;
+    height: 455px;
+}
+.main .newsflash{
+    position: absolute;
+    right: 0;
+    width: 254px;
+    height: 100%;
+    border: 1px solid #e8e8e7;
+    box-sizing: border-box;
+    /* background-color: lawngreen; */
+}
+
+.main .newsflash .more {
+    float: left;
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px dotted #e8e8e7;
+    box-sizing: border-box;
+    line-height: 34px;
+    font-size: 14px;
+    text-indent: 16px;
+    color: #333;
+
+}
+.main .newsflash .more a {
+    position: absolute;
+    right: 13px;
+    font-size: 12px;
+}
+
+.main .newsflash .more a::after {
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 12px;
+}
+
+.main .newsflash section {
+    float: left;
+    width: 100%;
+    height: 131px;
+}
+.main .newsflash section ul {
+    height: 100%;
+    line-height: 25px;
+}
+
+
+.main .newsflash .samll {
+    float: left;
+    width: 62px;
+    height: 73px;
+    border-left: 1px solid #e8e8e7;
+    border-top: 1px solid #e8e8e7;
+
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+
+}
+
+.footboder {
+    border-bottom: 1px solid #e8e8e7;
+}
+.main .newsflash .samll i {
+    float: left;
+    margin: 14px 17.5px 9px 17.5px;
+    display: block;
+    width: 27px;
+    height: 27px;
+    background: url(../images/icons.png) -78px -16px no-repeat ;
+}
+
+.main .manpic {
+    float: left;
+    width: 100%;
+    height: 65px;
+    background: url(../images/图层178.png) 0 -380px no-repeat;
+}

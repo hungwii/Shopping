@@ -121,4 +121,53 @@
     background-color: #dddddd;
 }
 
+/* 猜你喜欢模块 */
+.guess {
+    margin-top: 23px;
+    height: 271px;
+}
+.guess-hd {
+    position: relative;
+    height: 36px;
+    width: 100%;
+    line-height: 36px;
+    font-size: 18px;
+}
 
+.guess-hd a {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+}
+
+.guess-hd a::after {
+    font-family: 'icomoon';
+    content: '\ea2e';
+    padding-left: 5px;
+}
+.guess-bd{
+    height: 235px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+}
+
+.guess-bd li {
+    float: left;
+    width: 199.6px;
+    height: 235px;
+    box-sizing: border-box;
+    
+}
+
+.guess-bd ul li img {
+    float: left;
+    height: 148px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.guess-bd h5 {
+    margin-top: 5px;
+    text-align: center;
+}

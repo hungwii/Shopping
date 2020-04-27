@@ -87,3 +87,38 @@
     height: 65px;
     background: url(../images/图层178.png) 0 -380px no-repeat;
 }
+
+/* 推荐部分模块 */
+.recom {
+    height: 162px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+}
+.recom-hd {
+    float: left;
+    width: 205px;
+    height: 162px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.recom-bd {
+    float: left;
+}
+.recom-bd ul li{
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    height: 144px;
+    width: 1px;
+    background-color: #dddddd;
+}
+
+

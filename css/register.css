@@ -1,0 +1,159 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w header {
+    height: 84px;
+    border-bottom: 2px solid red;
+}
+.logo {
+    padding-top: 18px;
+}
+.registerarea {
+    height: 552px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.reg-form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+.reg-form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form ul li input[text] {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: red;
+}
+
+.error-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png);
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.sucess {
+    color: seagreen;
+}
+.sucess-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/sucess.png);
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.safe .ruo {
+    background-color: #de1111;
+}
+.safe .zhong {
+    background-color: green;
+}
+.safe .qiang {
+    background-color: orange;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: skyblue;
+}
+.btn {
+    color: #fff;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+}
+
+
+
+/* 底部模块 */
+.last {
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+
+.last .dpic {
+    position: absolute;
+    right: 100px;
+    top: 21px;
+    width: auto;
+    height: 100%;
+}
+.last h6 {
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;    
+}
+.last img {
+    margin-bottom: 9px;
+    width: 85px;
+    height: 85px;
+}
+.last .dpic p {
+    font-size: 12px;
+    color: #333;
+}
+
+.last footer ul{
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.last footer ul li {
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-left:1px solid #666666 ;
+    font-size: 12px;
+    color: #666666;
+}
+.last footer p {
+    text-align: center;
+}
